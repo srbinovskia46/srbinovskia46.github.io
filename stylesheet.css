@@ -1,0 +1,261 @@
+body{
+    font-family: sans-serif!important;
+    width: 1000px;
+    height: 900px;
+    background-color: #3c3f41;
+    margin: auto;
+}
+
+/*Navbar*/
+.navbar ul{
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    display: block;
+    background-color: #03cfb1;
+    font-size: 22px;
+    height: 25px;
+    width: 145px;
+    padding: 10px;
+    border: 2px solid #03cfb1;
+    border-radius: 5px;
+
+    text-decoration: none;
+    color: ghostwhite;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color: #03cfb1;
+    background-color: ghostwhite;
+    border: 2px solid ghostwhite;
+}
+
+/*Profile image*/
+#profile_image img{
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    clear: both;
+    align-items: center;
+    margin-left: 290px;
+    margin-top: 20px;
+}
+
+#introduction{
+    text-align: center;
+    font-size: 35px;
+    color: ghostwhite;
+    font-weight: bold;
+    margin-top: -5px;
+}
+#introduction span{
+    font-size: 18px;
+}
+
+/*Home info*/
+#info{
+    color: white;
+}
+#info a{
+    color: white;
+}
+#info li{
+    padding: 2px;
+    margin-left: 350px;
+}
+#location{
+    list-style-image: url("images/icons/location.png");
+}
+.number{
+    list-style-image: url("images/icons/phone.png");
+}
+.email{
+    list-style-image: url("images/icons/email.png");
+}
+
+
+/*School education page*/
+#school_education{
+    text-align: center;
+    font-size: 25px;
+    color: ghostwhite;
+    margin-top: 30px;
+    font-weight: bold;
+}
+#education{
+    margin-left: 100px;
+    margin-top: 100px;
+    color: ghostwhite;
+    font-weight: bold;
+    font-size: 20px;
+}
+#education li{
+    margin-top: 15px;
+    list-style-image: url("images/icons/school.png");
+}
+
+
+/*Skills page*/
+#languages{
+    float: left;
+    width: 270px;
+    height: 270px;
+    margin-left: 75px;
+    margin-top: 100px;
+    border: 2px solid #03cfb1;
+    background-color: #03cfb1;
+    border-radius: 50%;
+    font-size: 22px;
+    color: ghostwhite;
+}
+
+#languages ul{
+    list-style: none;
+    text-align: center;
+    margin-left: -34px;
+    font-weight: bolder;
+}
+#languages p{
+    text-align: center;
+    margin-left: 2px;
+    margin-top: 47px;
+}
+
+#excellent_skills{
+    display: inline-block;
+    float: left;
+    width: 270px;
+    height: 270px;
+    margin-top: 250px;
+    margin-left: 50px;
+    border: 2px solid #03cfb1;
+    background-color: #03cfb1;
+    border-radius: 50%;
+    font-size: 22px;
+    color: ghostwhite;
+}
+
+#excellent_skills ul{
+    list-style: none;
+    text-align: center;
+    margin-left: -34px;
+    margin-top: -10px;
+    font-weight: bolder;
+}
+#excellent_skills p{
+    text-align: center;
+    margin-left: 2px;
+    margin-top: 72px;
+}
+
+
+#work_skills{
+    display: inline-block;
+    float: left;
+    width: 270px;
+    height: 270px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border: 2px solid #03cfb1;
+    background-color: #03cfb1;
+    border-radius: 50%;
+    font-size: 22px;
+    color: ghostwhite;
+}
+
+#work_skills ul{
+    list-style: none;
+    text-align: center;
+    margin-left: -34px;
+    margin-top: -10px;
+    font-weight: bolder;
+}
+#work_skills p{
+    text-align: center;
+    margin-left: 2px;
+    margin-top: 55px;
+}
+
+
+/*Interests page*/
+#hobby{
+    border-radius: 20px;
+    width: 300px;
+    border: 3px dashed #03cfb1;
+    margin: 80px auto auto auto;
+}
+#hobby p{
+    color: ghostwhite;
+    text-align: center;
+}
+#coding_image{
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+}
+#coding_image img{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #03cfb1;
+    margin-top: 25px;
+}
+#car_image{
+    width: 300px;
+    height: 300px;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+#car_image img{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #03cfb1;
+    margin-top: 80px;
+}
+#book_image{
+    width: 300px;
+    height: 300px;
+    margin-left: 665px;
+    margin-top: -440px;
+
+}
+#book_image img{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #03cfb1;
+    margin-top: 80px;
+    background-color: ghostwhite;
+}
+#images{
+    margin-top: -150px;
+}
+
+/*Contact page*/
+#contact_paragraph{
+    width: 800px;
+    margin: 80px auto auto auto;
+    font-weight: bold;
+    color: ghostwhite;
+    font-size: 25px;
+}
+#contact_information{
+    margin-top: 50px;
+}
+#contact_information li{
+    margin-left: 90px;
+    font-weight: bold;
+    font-size: 25px;
+    color: ghostwhite;
+}
+#contact_information a{
+    color: #03cfb1;
+
+}
